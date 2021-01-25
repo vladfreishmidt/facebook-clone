@@ -199,3 +199,82 @@ img {
 .header__link-icon {
   font-size: 0.9rem;
 }
+
+
+/*
+
+CONTENT AREA
+
+*/
+
+.content-area {
+  padding: 90px 15px 20px;
+  display: flex;
+}
+
+.sidenav__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidenav__item-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.sidenav__item-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.sidenav__item-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.sidenav__item-notification {
+  color: var(--fb-blue);
+  margin-top: 5px;
+  font-size: 0.75rem;
+  display: block;
+  font-weight: 300;
+}
+
+.sidenav__item-notification-circle {
+  background-color: var(--fb-blue);
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.sidenav__item-icon--circle {
+  background-color: var(--button-link);
+  border-radius: 50%;
+  font-size: .9rem;
+}
+
+.sidenav__item-icon--circle-white {
+  background-color: var(--fb-blue);
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.sidenav__item-icon .fas,
+.sidenav__item-icon .fab {
+  color: var(--fb-blue);
+}
+
+.sidenav__item-icon--circle .fas,
+.sidenav__item-icon--circle .fab {
+  color: var(--fb-black);
+}

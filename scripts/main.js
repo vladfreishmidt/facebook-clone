@@ -1,1 +1,0 @@
-const menuTab = document.querySelector('.header__menu-tab');
